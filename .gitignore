@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.eggs/
+dist/
+build/
+*.egg-info/
+
+# Environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/set_a/
+data/set_b/
+data/*.zip
+data/*.csv
+*.wav
+!data/samples/*.wav
+
+# Model weights
+*.pt
+*.pth
+*.pkl
+
+# Results
+results/*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/
+
+# Logs
+*.log
